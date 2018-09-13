@@ -1,4 +1,4 @@
-# calvarymonaca
+# Calvary Baptist Church of Monaca, PA, USA
 
 WORK IN PROGRESS
 

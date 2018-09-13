@@ -1,29 +1,29 @@
 import React, { Component } from 'react';
 import './App.css';
 import {
-  AboutUs,
-  Awana,
-  Bible,
-  DiscussionArea,
+  // AboutUs,
+  // Awana,
+  // Bible,
+  // DiscussionArea,
   Footer,
-  GlobalOutreach,
+  // GlobalOutreach,
   Header,
-  Home,
-  Links,
-  LocalOutreach,
-  Member,
-  MemberDirectory,
-  MemberProfile,
-  MemberSignIn,
-  MemberSignUp,
-  MyProfile,
+  // Home,
+  // Links,
+  // LocalOutreach,
+  // Member,
+  // MemberDirectory,
+  // MemberProfile,
+  // MemberSignIn,
+  // MemberSignUp,
+  // MyProfile,
   NavBar,
-  News,
-  Preschool,
-  SermonList,
-  Sermons,
-  Visitor,
-  WorshipMusic,
+  // News,
+  // Preschool,
+  // SermonList,
+  // Sermons,
+  // Visitor,
+  // WorshipMusic,
 } from './components';
 
 class App extends Component {
@@ -34,31 +34,14 @@ class App extends Component {
           <Header />
           <NavBar />
         </header>
-        <AboutUs />
-        <Awana />
-        <Bible />
-        <DiscussionArea />
-        <GlobalOutreach />
-        <Home />
-        <Links />
-        <LocalOutreach />
-        <Member />
-        <MemberDirectory />
-        <MemberProfile />
-        <MemberSignIn />
-        <MemberSignUp />
-        <MyProfile />
-        <News />
-        <Preschool />
-        <SermonList />
-        <Sermons />
-        <Visitor />
-        <WorshipMusic />
-        <div>
-        <Footer/>
+        <body>
+          <h1>BODY</h1>
+          <h2>Welcome to Calvary Baptist Church!</h2>
+        </body>
+        <footer className="APP__FOOTER">
+          <Footer/>
+        </footer>
       </div>
-      </div>
-      
     );
   }
 }

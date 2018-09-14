@@ -16,8 +16,8 @@ class Home extends Component {
   render() {
     return (
       <div className="HOME">
-        <h1>Welcome to Calvary Baptist Church!</h1>
-        <h2>Growing a Community of Grace</h2>
+        <h1 className="HOME__WELCOME">Welcome to Calvary Baptist Church<br/>of Monaca, Pennsylvania</h1><br/>
+        <h2 className="HOME__TAGLINE">Growing a Community of Grace</h2>
       </div>
     )
   }

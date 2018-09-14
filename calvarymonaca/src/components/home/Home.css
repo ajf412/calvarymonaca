@@ -2,3 +2,11 @@
     /* background-blend-mode: multiply; */
     background: rgba(0, 0, 0, 0.0);
 }
+
+.HOME__WELCOME {
+    text-align: center;
+}
+
+.HOME__TAGLINE {
+    text-align: center;
+}

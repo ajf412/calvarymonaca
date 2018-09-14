@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
 
+import './NavBar.css';
+
 import { 
   Collapse,
   Navbar,
@@ -20,8 +22,8 @@ class NavBar extends Component {
 
   render() {
     return (
-      <div>
-        <Navbar color="light" light expand="md">
+      <div className="NAVBAR">
+        <Navbar className="NAVBAR__BAR" color="light" light expand="md">
           <NavbarBrand href="/">Home</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

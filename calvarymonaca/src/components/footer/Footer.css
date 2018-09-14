@@ -1,0 +1,13 @@
+.FOOTER {
+    background-color: #326273;
+    height: 50px;
+    width: 100%;
+    color: #FFFFFF;
+    display: flex;
+}
+.FOOTER__CREATEDBY {
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}

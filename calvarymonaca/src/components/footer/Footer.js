@@ -4,8 +4,8 @@ import './Footer.css';
 class Footer extends Component {
   render() {
     return (
-      <div className="Footer">
-          <p className="Footer-title">Website Created by AJF Designs</p>
+      <div className="FOOTER">
+          <p className="FOOTER__CREATEDBY">Website Created by AJF Designs</p>
       </div>
     );
   }

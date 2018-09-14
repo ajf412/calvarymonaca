@@ -1,10 +1,14 @@
 .HEADER {
     display: flex;
     justify-content: space-between;
-    background-color: #222222;
     margin: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #FFFFFF;
-    border: 2px solid red;
-  }
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #FFFFFF;
+    /* border: 2px solid red; */
+}
+
+.HEADER__LOGO {
+    height: 100px;
+    width: 25%;
+}

@@ -35,8 +35,8 @@ class App extends Component {
           <NavBar />
         </header>
         <body>
-          <h1>BODY</h1>
-          <h2>Welcome to Calvary Baptist Church!</h2>
+          <h1>Welcome to Calvary Baptist Church!</h1>
+          <h2>Growing a Community of Grace</h2>
         </body>
         <footer className="APP__FOOTER">
           <Footer/>

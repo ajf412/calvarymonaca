@@ -3,27 +3,26 @@
 }
 
 .APP {
+  height: 100%;
+  align-items: stretch;
   text-align: center;
   display: flex;
   flex-direction: column;
   border: 2px solid black;
 }
 
-.APP__HEADER {
-  display: flex;
-  justify-content: space-between;
-  background-color: blue;
-  padding: 20px;
-  color: white;
-  border: 2px solid red;
-}
-
 .APP__BODY {
+  background-image: linear-gradient(to bottom right, #6DBCCE, #FFFFFF);
   display: flex;
   font-size: large;
+  flex-direction: column;
+  align-content: center;
 }
 
 .APP__FOOTER {
+  width: 100%;
+  color: #FFFFFF;
+  background-color: #326273;
   display: flex;
   align-self: center;
   font-size: 10px;

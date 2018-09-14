@@ -16,11 +16,14 @@ import MemberSignUp from './member-sign-up/MemberSignUp';
 import MyProfile from './my-profile/MyProfile';
 import NavBar from './nav-bar/NavBar';
 import News from './news/News';
+import Outreach from './outreach/Outreach';
 import Preschool from './preschool/Preschool';
+import Resources from './resources/Resources';
 import SermonList from './sermon-list/SermonList';
 import Sermons from './sermons/Sermons';
 import Visitor from './visitor/Visitor';
 import WorshipMusic from './worship-music/WorshipMusic';
+
 
 export {
   AboutUs,
@@ -41,7 +44,9 @@ export {
   MyProfile,
   NavBar,
   News,
+  Outreach,
   Preschool,
+  Resources,
   SermonList,
   Sermons,
   Visitor,

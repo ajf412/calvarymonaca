@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer">
-          <p className="Footer-title">Created by AJF Designs</p>
+          <p className="Footer-title">Website Created by AJF Designs</p>
       </div>
     );
   }

@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+// ________STYLING________
+import './Home.css';
+
 class Home extends Component {
   constructor(props) {
     super(props)
@@ -12,7 +15,10 @@ class Home extends Component {
   // Needs to be easy to change/update banners and articles.
   render() {
     return (
-      <h1>Home</h1>
+      <div className="HOME">
+        <h1>Welcome to Calvary Baptist Church!</h1>
+        <h2>Growing a Community of Grace</h2>
+      </div>
     )
   }
 };

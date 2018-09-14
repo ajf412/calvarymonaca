@@ -20,34 +20,40 @@ class NavBar extends Component {
     }
   }
 
+  toggle = () => {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+
   render() {
     return (
       <div className="NAVBAR">
-        <Navbar className="NAVBAR__BAR" color="light" light expand="md">
-          <NavbarBrand href="/">Home</NavbarBrand>
+        <Navbar className="NAVBAR__BAR" expand="md">
+          <NavbarBrand className="NAVBAR__BRAND" href="/">Home</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="ml-auto NAVBAR__NAV" navbar>
               <NavItem>
-                <NavLink href="/about/">About Us</NavLink>
+                <NavLink className="NAVBAR__LINK" href="/about/">About Us</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/news/">News & Events</NavLink>
+                <NavLink className="NAVBAR__LINK" href="/news/">News & Events</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/outreach/">Outreach</NavLink>
+                <NavLink className="NAVBAR__LINK" href="/outreach/">Outreach</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/sermons/">Sermons</NavLink>
+                <NavLink className="NAVBAR__LINK" href="/sermons/">Sermons</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/resources/">Resources</NavLink>
+                <NavLink className="NAVBAR__LINK" href="/resources/">Resources</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/bible/">Bible</NavLink>
+                <NavLink className="NAVBAR__LINK" href="/bible/">Bible</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/member/">Members</NavLink>
+                <NavLink className="NAVBAR__LINK" href="/member/">Members</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

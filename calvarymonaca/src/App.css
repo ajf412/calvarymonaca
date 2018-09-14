@@ -4,27 +4,26 @@
 
 .APP {
   height: 100%;
+  display: flex;
   align-items: stretch;
   text-align: center;
-  display: flex;
   flex-direction: column;
-  /* border: 2px solid black; */
+  border: 2px solid red;
 }
 
 .APP__BODY {
-  background-image: linear-gradient(to bottom right, #6DBCCE, #FFFFFF);
+  background-image: linear-gradient(to bottom right, #FFFFFF, #6DBCCE);
+  height: 100%;
   display: flex;
   font-size: large;
   flex-direction: column;
   align-content: center;
+  /* text-shadow: 2px 2px #FFFFFF; */
 }
 
-/* .APP__FOOTER {
+.APP__FOOTER {
   width: 100%;
-  color: #FFFFFF;
-  background-color: #326273;
   display: flex;
-  align-self: center;
-  font-size: 10px;
+  align-self: flex-end;
   border: 2px solid green;
-} */
+}

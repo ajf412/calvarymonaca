@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Row, Col } from 'reactstrap';
 
 class Preschool extends Component {
   constructor(props) {
@@ -10,7 +11,15 @@ class Preschool extends Component {
 
   render() {
     return (
-      <h1>Preschool</h1>
+      <div className="PRESCHOOL">
+        <Row>
+          <Col sm="12">
+          <p>Our Preschool prepares children for kindergarten while teaching them about the love of Christ.</p>
+          <p>Preschool Facebook page:<br/>
+          <a href ='https://www.facebook.com/Calvary-Baptist-Preschool-593046277509378/'>https://www.facebook.com/Calvary-Baptist-Preschool-593046277509378/</a></p>
+          </Col>
+        </Row>
+      </div>
     )
   }
 };

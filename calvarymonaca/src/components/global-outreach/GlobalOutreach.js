@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
 
 class GlobalOutreach extends Component {
   constructor(props) {
@@ -10,7 +11,24 @@ class GlobalOutreach extends Component {
 
   render() {
     return (
-      <h1>GlobalOutreach</h1>
+      <div className="GLOBAL">
+         <Row>
+            <Col sm="6">
+              <Card body>
+                <CardTitle>Missionary Family #1</CardTitle>
+                <CardText>Some basic information on this particular missionary family.  Click button below to go there.</CardText>
+                <Button>Go somewhere</Button>
+              </Card>
+            </Col>
+            <Col sm="6">
+              <Card body>
+                <CardTitle>Missionary Family #2</CardTitle>
+                <CardText>Some basic information on this particular missionary family.  Click button below to go there.</CardText>
+                <Button>Go somewhere</Button>
+              </Card>
+            </Col>
+          </Row>
+      </div>
     )
   }
 };

@@ -10,7 +10,7 @@ class Bible extends Component {
 
   render() {
     return (
-      <h1>Bible</h1>
+      <h1>BIBLE APP WILL GO HERE</h1>
     )
   }
 };

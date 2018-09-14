@@ -11,7 +11,7 @@ class Sermons extends Component {
   // Need ability to add power points/docs for notes and outlines.
   render() {
     return (
-      <h1>Sermons</h1>
+      <h1>SERMON LIST WILL GO HERE</h1>
     )
   }
 };

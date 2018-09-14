@@ -10,7 +10,7 @@ class Member extends Component {
 
   render() {
     return (
-      <h1>Member</h1>
+      <h1>MEMBER APP WILL GO HERE</h1>
     )
   }
 };

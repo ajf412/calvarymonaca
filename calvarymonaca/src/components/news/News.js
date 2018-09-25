@@ -1,5 +1,5 @@
 import React from 'react';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
 
 export default class News extends React.Component {
@@ -51,7 +51,15 @@ export default class News extends React.Component {
           <TabPane tabId="2">
             <Row>
               <Col sm="6">
-                <h5>GOOGLE CALENDAR GOES HERE</h5>
+              <iframe
+                title="Google Calendar"
+                src="https://calendar.google.com/calendar/embed?src=calvarybaptistmonaca%40gmail.com&ctz=America%2FNew_York"
+                // style="border: 0"
+                width="100%"
+                height="600"
+                frameborder="0"
+                scrolling="no">
+              </iframe>
               </Col>
             </Row>
           </TabPane>

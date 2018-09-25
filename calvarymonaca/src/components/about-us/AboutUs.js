@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { TabContent, TabPane, Nav, NavItem, NavLink, ListGroup, ListGroupItem, Row, Col } from 'reactstrap';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
 
 export default class AboutUs extends Component {
@@ -106,7 +106,13 @@ export default class AboutUs extends Component {
             <Row>
               <Col sm="12">
                 <h5>Contact Us</h5>
-                <p>999 McClelland Street<br/>Monaca, PA  15061<br/>office@calvarymonaca.com<br/>https://www.facebook.com/CalvaryBaptistChurchMonacaPa?ref=hl<br/><br/>Office  (724)775-6538</p>
+                <p>999 McClelland Street<br/>
+                Monaca, PA  15061<br/>
+                <br/>
+                office@calvarymonaca.com<br/>
+                <a href='https://www.facebook.com/CalvaryBaptistChurchMonacaPa'>Facebook</a><br/>
+                <br/>
+                Office  (724)775-6538</p>
               </Col>
             </Row>
           </TabPane>

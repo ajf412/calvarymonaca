@@ -1,12 +1,27 @@
 .HOME {
     /* background-blend-mode: multiply; */
     background: rgba(0, 0, 0, 0.0);
+    display: flex;
+    flex-direction: column;
 }
 
 .HOME__WELCOME {
+    margin: 20px;
     text-align: center;
 }
 
 .HOME__TAGLINE {
+    margin: 20px;
     text-align: center;
+}
+
+.HOME__CAROUSEL {
+    width: 50%;
+    align-self: center;
+}
+
+.HOME__INFO {
+    margin: 20px 0px 20px 0px;
+    border: 2px solid yellow;
+    padding-left: 20px;
 }

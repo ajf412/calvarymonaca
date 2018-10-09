@@ -15,6 +15,7 @@
   background-image: linear-gradient(to bottom right, #FFFFFF, #6DBCCE);
   height: 100%;
   display: flex;
+  align-items: stretch;
   font-size: large;
   flex-direction: column;
   align-content: center;

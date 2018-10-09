@@ -1,13 +1,39 @@
 .FOOTER {
+    position: fixed;
     background-color: #326273;
-    height: 50px;
     width: 100%;
     color: #FFFFFF;
     display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
 }
+
+.FOOTER__INFO {
+    display: flex;
+}
+
+.FOOTER__INFO p {
+    padding-left: 20px;
+    text-align: left;
+}
+
 .FOOTER__CREATEDBY {
     font-size: 10px;
-    width: 100%;
     text-align: center;
     align-self: center;
+}
+
+.FOOTER__LOGIN {
+    justify-self: flex-end;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+.FOOTER__MEMBERLOGIN {
+    padding: 5px;
+}
+
+.FOOTER__ADMINLOGIN {
+    padding: 5px;
 }

@@ -2,6 +2,8 @@ import React from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
 
+import './News.css';
+
 export default class News extends React.Component {
   constructor(props) {
     super(props);
@@ -21,7 +23,7 @@ export default class News extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="NEWS__TABS">
         <Nav tabs>
           <NavItem>
             <NavLink
@@ -50,7 +52,7 @@ export default class News extends React.Component {
           </TabPane>
           <TabPane tabId="2">
             <Row>
-              <Col sm="6">
+              <Col sm="12">
               <iframe
                 title="Google Calendar"
                 src="https://calendar.google.com/calendar/embed?src=calvarybaptistmonaca%40gmail.com&ctz=America%2FNew_York"

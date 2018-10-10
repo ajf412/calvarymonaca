@@ -57,7 +57,7 @@ export default class Resources extends React.Component {
           </TabPane>
           <TabPane tabId="2">
             <Row>
-              <Col sm="6">
+              <Col sm="12">
                 <WorshipMusic/>
               </Col>
             </Row>

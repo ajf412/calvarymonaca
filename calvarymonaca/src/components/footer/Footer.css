@@ -1,5 +1,5 @@
 .FOOTER {
-    position: fixed;
+    /* position: fixed; */
     background-color: #326273;
     width: 100%;
     color: #FFFFFF;
@@ -17,23 +17,7 @@
     text-align: left;
 }
 
-.FOOTER__CREATEDBY {
-    font-size: 10px;
-    text-align: center;
-    align-self: center;
-}
-
 .FOOTER__LOGIN {
-    justify-self: flex-end;
-    align-self: flex-end;
-    display: flex;
-    justify-content: space-evenly;
-    padding-right: 20px;
-}
-.FOOTER__MEMBERLOGIN {
-    padding: 5px;
-}
-
-.FOOTER__ADMINLOGIN {
-    padding: 5px;
+    padding: 20px;
+    align-self: center;
 }

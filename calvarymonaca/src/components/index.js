@@ -19,7 +19,7 @@ import News from './news/News';
 import Outreach from './outreach/Outreach';
 import Preschool from './preschool/Preschool';
 import Resources from './resources/Resources';
-import SermonList from './sermon-list/SermonList';
+import SermonList from './sermons/SermonList';
 import Sermons from './sermons/Sermons';
 import Visitor from './visitor/Visitor';
 import WorshipMusic from './worship-music/WorshipMusic';

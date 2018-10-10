@@ -4,6 +4,8 @@ import classnames from 'classnames';
 
 import WorshipMusic from '../worship-music/WorshipMusic';
 
+import './Resources.css';
+
 export default class Resources extends React.Component {
   constructor(props) {
     super(props);
@@ -23,7 +25,7 @@ export default class Resources extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="RESOURCES">
         <Nav tabs>
           <NavItem>
             <NavLink

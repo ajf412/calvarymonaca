@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col, Card, CardBody, Button, CardTitle, CardText, CardImg, ListGroup, ListGroupItem } from 'reactstrap';
 import classnames from 'classnames';
 
+import './AboutUs.css';
+
 export default class AboutUs extends Component {
   constructor(props) {
     super(props);
@@ -20,7 +22,7 @@ export default class AboutUs extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="ABOUTUS">
         <Nav tabs>
           <NavItem>
             <NavLink

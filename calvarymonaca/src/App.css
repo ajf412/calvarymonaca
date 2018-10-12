@@ -3,28 +3,41 @@
 }
 
 .APP {
-  height: 100%;
+  min-height: 100%;
   display: flex;
-  align-items: stretch;
   text-align: center;
   flex-direction: column;
+  position: relative;
   /* border: 2px solid red; */
+}
+
+.APP__HEADER {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
 }
 
 .APP__BODY {
   background-image: linear-gradient(to bottom right, #FFFFFF, #6DBCCE);
+  min-height: 100%;
   height: 100%;
   display: flex;
-  align-items: stretch;
   font-size: large;
   flex-direction: column;
   align-content: center;
+  flex-grow: 1;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  position: relative;
   /* text-shadow: 2px 2px #FFFFFF; */
 }
 
 .APP__FOOTER {
   width: 100%;
   display: flex;
-  align-self: flex-end;
+  /* margin-top: auto; */
+  position: fixed;
+  bottom: 0;
   /* border: 2px solid green; */
 }

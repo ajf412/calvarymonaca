@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './Member.css';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col, Form, FormGroup, Label, Input, FormText, InputGroup } from 'reactstrap';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Button, Row, Col, Form, FormGroup, Label, Input } from 'reactstrap';
 import classnames from 'classnames';
 
 class Member extends Component {

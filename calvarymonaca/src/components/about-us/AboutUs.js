@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col, Card, CardBody, Button, CardTitle, CardText, CardImg, ListGroup, ListGroupItem } from 'reactstrap';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col, Card, CardBody, CardTitle, CardText, CardImg, ListGroup, ListGroupItem } from 'reactstrap';
 import classnames from 'classnames';
 
 import './AboutUs.css';

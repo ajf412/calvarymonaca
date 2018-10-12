@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Col, Button, Form, FormGroup, Label, Input, FormText, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Col, Button, Form, FormGroup, Label, Input, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import './Sermons.css';
 
 class SermonUpload extends Component {

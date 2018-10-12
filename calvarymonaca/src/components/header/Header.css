@@ -18,11 +18,10 @@ href {
 
 @media (max-width: 768px) {
     .HEADER {
-      flex-direction: column;
+        flex-direction: column;
     }
     .HEADER__LOGO {
-        width: 100%;
-        height: auto;
+        display: none;
     }
 }
   
@@ -31,7 +30,6 @@ href {
         flex-direction: column;
     }
     .HEADER__LOGO {
-        width: 100%;
-        height: auto;
+        display: none;
     }
 }

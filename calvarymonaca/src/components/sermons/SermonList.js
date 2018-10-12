@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Button, Form, FormGroup, Label, Input, FormText, ListGroup, ListGroupItem } from 'reactstrap';
+import { Button, ListGroup, ListGroupItem } from 'reactstrap';
 
 class SermonList extends Component {
   constructor(props) {

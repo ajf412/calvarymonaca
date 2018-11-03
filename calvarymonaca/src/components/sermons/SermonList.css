@@ -1,0 +1,16 @@
+.SERMONLIST__SERMONHEADER {
+    display: flex;
+}
+
+.SERMONLIST__SERIES {
+    margin-left: 10px;
+}
+.SERMONLIST__DATE {
+    margin-left: 10px;
+    font-size: 12px;
+    align-self: center;
+}
+
+.SERMONLIST__SCRIPTURE {
+    font-size: 12px;
+}

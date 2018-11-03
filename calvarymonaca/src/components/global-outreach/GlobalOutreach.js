@@ -17,14 +17,14 @@ class GlobalOutreach extends Component {
               <Card body>
                 <CardTitle>Missionary Family #1</CardTitle>
                 <CardText>Some basic information on this particular missionary family.  Click button below to go there.</CardText>
-                <Button>Go somewhere</Button>
+                <Button color="info">Go somewhere</Button>
               </Card>
             </Col>
             <Col sm="6">
               <Card body>
                 <CardTitle>Missionary Family #2</CardTitle>
                 <CardText>Some basic information on this particular missionary family.  Click button below to go there.</CardText>
-                <Button>Go somewhere</Button>
+                <Button color="info">Go somewhere</Button>
               </Card>
             </Col>
           </Row>

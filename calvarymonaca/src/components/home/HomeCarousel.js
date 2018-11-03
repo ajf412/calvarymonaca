@@ -3,6 +3,11 @@ import { UncontrolledCarousel } from 'reactstrap';
 
 const items = [
   {
+    altText: 'Sermon Title',
+    caption: 'Sermon Series',
+    header: 'Sermon Title'
+  },
+  {
     src: 'https://www.calvarymonaca.com/images/flash_images/1.jpg',
     altText: 'Slide 1',
     caption: '',
@@ -19,7 +24,7 @@ const items = [
     altText: 'Slide 3',
     caption: '',
     header: ''
-  }
+  },
 ];
 
 const HomeCarousel = () => <UncontrolledCarousel items={items} indicators={false} controls={false} />;

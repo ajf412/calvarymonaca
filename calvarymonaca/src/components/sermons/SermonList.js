@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
-import { Button, ListGroup, ListGroupItem } from 'reactstrap';
+import { Button, ListGroup, ListGroupItem, Row, Col, InputGroup, InputGroupAddon, Input } from 'reactstrap';
+
+import './SermonList.css';
 
 class SermonList extends Component {
   constructor(props) {
@@ -13,30 +15,41 @@ class SermonList extends Component {
   render() {
     return (
       <div>
+        Filter
+        <Col xs="12">
+          <Row>
+            <Col  xs="12" md="6" >
+            <InputGroup>
+              <InputGroupAddon addonType="prepend">Title</InputGroupAddon>
+              <Input />
+            </InputGroup>
+            </Col>
+            <Col xs="12" md="6">
+            <InputGroup>
+              <InputGroupAddon addonType="prepend">Series</InputGroupAddon>
+              <Input />
+            </InputGroup>
+            </Col>
+          </Row>
+        </Col>
+        <br/>
         <ListGroup>
           <ListGroupItem>
-            <h5>Sermon Title 1</h5><p>Sermon Series</p>
-            <p>Futher info about the sermon.  Text about context, etc...  Stuff you want to say about it.</p>
-            <p>Scripture reference 1, Scripture reference 2, Scripture reference 3...</p>
-            <Button color="info">Download MP3</Button>
-            <Button color="info">Download Notes & Outlines</Button>
-            <Button color="info">Download Slides</Button>
+            <Row className="SERMONLIST__SERMONHEADER">
+              <h5 className="SERMONLIST__TITLE">Short Sermon Title</h5><p className="SERMONLIST__SERIES">Short series</p><p className="SERMONLIST__DATE">11/4/2018</p>
+            </Row>
+            <p className="SERMONLIST__SCRIPTURE">Scripture reference 1</p><p className="SERMONLIST__SCRIPTURE">Scripture reference 2</p><p className="SERMONLIST__SCRIPTURE">Scripture reference 3</p>
           </ListGroupItem>
           <ListGroupItem>
-            <h5>Sermon Title 2</h5><p>Sermon Series</p>
-            <p>Futher info about the sermon.  Text about context, etc...  Stuff you want to say about it.</p>
-            <p>Scripture reference 1, Scripture reference 2, Scripture reference 3...</p>
-            <Button color="info">Download MP3</Button>
-            <Button color="info">Download Notes & Outlines</Button>
-            <Button color="info">Download Slides</Button>
-          </ListGroupItem>
+            <Row className="SERMONLIST__SERMONHEADER">
+              <h5 className="SERMONLIST__TITLE">A Medium Length Sermon Title</h5><p className="SERMONLIST__SERIES">This is a medium series name.</p><p className="SERMONLIST__DATE">11/11/2018</p>
+            </Row>
+            <p className="SERMONLIST__SCRIPTURE">Scripture reference 1</p><p className="SERMONLIST__SCRIPTURE">Scripture reference 2</p><p className="SERMONLIST__SCRIPTURE">Scripture reference 3</p>         </ListGroupItem>
           <ListGroupItem>
-            <h5>Sermon Title 3</h5><p>Sermon Series</p>
-            <p>Futher info about the sermon.  Text about context, etc...  Stuff you want to say about it.</p>
-            <p>Scripture reference 1, Scripture reference 2, Scripture reference 3...</p>
-            <Button color="info">Download MP3</Button>
-            <Button color="info">Download Notes & Outlines</Button>
-            <Button color="info">Download Slides</Button>
+            <Row className="SERMONLIST__SERMONHEADER">
+              <h5 className="SERMONLIST__TITLE">This is a Very Long Sermon Title to Test Site Adaptability</h5><p className="SERMONLIST__SERIES">This is a long series name to test site adaptability.</p><p className="SERMONLIST__DATE">11/18/2018</p>
+            </Row>
+            <p className="SERMONLIST__SCRIPTURE">Scripture reference 1</p><p className="SERMONLIST__SCRIPTURE">Scripture reference 2</p><p className="SERMONLIST__SCRIPTURE">Scripture reference 3</p>
           </ListGroupItem>
         </ListGroup>
       </div>

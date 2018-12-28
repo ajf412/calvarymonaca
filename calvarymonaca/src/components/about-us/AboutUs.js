@@ -138,13 +138,13 @@ export default class AboutUs extends Component {
             <Row>
               <Col sm="12">
                 <h5>Get Connected</h5> 
-                <p><h6>Explore the Bible</h6>Adult and children’s classes each Sunday morning include an in depth study of the Scriptures with an emphasis on the practical application of what is learned.</p><br/>
-                <p><h6>L.I.F.E. Group Bible Studies</h6>These groups meet in various homes in the community and are opportunities to get better acquainted with one another in the relaxed atmosphere. The time frame is usually two hours and consists of study, prayer, refreshments and enjoying one another’s company.</p><br/>
-                <p><h6>Prayer Connection</h6>This is a time to share requests and to pray for one another. This opportunity is from 9:30 am to 9:45 am on Sunday morning.</p><br/>
-                <p><h6>Weekly Prayer Meeting</h6>Beginning Wednesday, February 1, 2017 at 7:00 pm we will be re-instituting Prayer meeting each Wednesday evening.It will consist of a short Bible study and prayer meeting to follow. It is great way to refresh yourself midway through the week and help you stay grounded. bring your Bible and your prayer requests.</p><br/>
-                <p><h6>Praise Team</h6>Play a key role in leading our congregation in corporate worship.</p><br/>
-                <p><h6>AWANA</h6>AWANA is a children's ministry that seeks to establish our kids on a solid biblical foundation to provide the direction that is needed for daily life.</p><br/>
-                <p><h6>CBC Preschool</h6>Prepare children for kindergarten while teaching them about the love of Christ.</p><br/>
+                <h6>Explore the Bible</h6><p>Adult and children’s classes each Sunday morning include an in depth study of the Scriptures with an emphasis on the practical application of what is learned.</p><br/>
+                <h6>L.I.F.E. Group Bible Studies</h6><p>These groups meet in various homes in the community and are opportunities to get better acquainted with one another in the relaxed atmosphere. The time frame is usually two hours and consists of study, prayer, refreshments and enjoying one another’s company.</p><br/>
+                <h6>Prayer Connection</h6><p>This is a time to share requests and to pray for one another. This opportunity is from 9:30 am to 9:45 am on Sunday morning.</p><br/>
+                <h6>Weekly Prayer Meeting</h6><p>Beginning Wednesday, February 1, 2017 at 7:00 pm we will be re-instituting Prayer meeting each Wednesday evening.It will consist of a short Bible study and prayer meeting to follow. It is great way to refresh yourself midway through the week and help you stay grounded. bring your Bible and your prayer requests.</p><br/>
+                <h6>Praise Team</h6><p>Play a key role in leading our congregation in corporate worship.</p><br/>
+                <h6>AWANA</h6><p>AWANA is a children's ministry that seeks to establish our kids on a solid biblical foundation to provide the direction that is needed for daily life.</p><br/>
+                <h6>CBC Preschool</h6><p>Prepare children for kindergarten while teaching them about the love of Christ.</p><br/>
               </Col>
             </Row>
           </TabPane>

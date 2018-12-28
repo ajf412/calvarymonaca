@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 
 import './Member.css';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Button, Row, Col, Form, FormGroup, Label, Input } from 'reactstrap';
-import classnames from 'classnames';
+import { Button, Row, Col, Form, FormGroup, Input } from 'reactstrap';
 
 import MemberSignUp from './member-sign-up/MemberSignUp';
 
@@ -26,26 +25,26 @@ class Member extends Component {
   render() {
     if(this.state.loggedIn === false) {
     return (
-      <div className="MEMBER__TABS">
+      <div className="MEMBER">
             <Row>
-              <Col sm="6">
+              <Col>
                 <h4>Member Login</h4>
                 <div>
                   <Form inline>
-                    <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
+                    <FormGroup>
                       <Input type="username" name="username" id="memberUsername" placeholder="username" />
                     </FormGroup>
-                    <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
+                    <FormGroup>
                       <Input type="password" name="password" id="examplePassword" placeholder="password" />
                     </FormGroup>
-                    <Button color="info">Submit</Button>
+                    <div className="MEMBER__BUTTONS">
+                      <Button color="info">Submit</Button><br/>
+                      <MemberSignUp />
+                    </div>
                   </Form>
                 </div>
               </Col>
             </Row>
-            <br/>
-            <MemberSignUp />
-
       </div>
     )
     }

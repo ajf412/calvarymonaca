@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Button, ListGroup, ListGroupItem, Row, Col, InputGroup, InputGroupAddon, Input } from 'reactstrap';
+import { ListGroup, ListGroupItem, Row, Col, InputGroup, InputGroupAddon, Input } from 'reactstrap';
 
 import './SermonList.css';
 

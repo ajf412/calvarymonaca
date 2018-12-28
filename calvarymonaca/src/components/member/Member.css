@@ -1,3 +1,8 @@
-.MEMBER__TABS {
+.MEMBER {
     padding: 20px;
+}
+
+.MEMBER__BUTTONS {
+    display: flex;
+    flex-direction: column;
 }

@@ -24,7 +24,7 @@ class App extends Component {
         <header className="APP__HEADER">
           <Header />
         </header>
-        <body className="APP__BODY">
+        <div className="APP__BODY">
           <Router>
             <Switch>
               <Route exact path = '/' component={Home} />
@@ -39,7 +39,7 @@ class App extends Component {
             </Switch>
           </Router>
 
-        </body>
+        </div>
         <footer className="APP__FOOTER">
           <Footer/>
         </footer>

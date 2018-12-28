@@ -17,7 +17,7 @@ class Sermons extends Component {
       return (
         <div className="SERMONS">
           <SermonList /><br/>
-          <SermonUpload />
+          <SermonUpload admin={this.props.admin} />
         </div>
       )
     } else {

@@ -44,7 +44,7 @@ class StaffPage extends Component {
                             <ListGroupItem>Directed ministries for southeast Asia closed country with the focus on leadership training.</ListGroupItem>
                             <ListGroupItem>Transitioned back to pastoral work at Calvary in 2014.</ListGroupItem>
                         </ListGroup>
-                        <IsAdmin admin={this.state.isAdmin} />
+                        <IsAdmin admin={this.props.admin} />
                         </CardBody>
                     </Card>
                     </Col>
@@ -62,7 +62,7 @@ class StaffPage extends Component {
                                 <ListGroupItem>AWANA Leader – dedicated to reaching kids with the Gospel of Christ.</ListGroupItem>
                                 <ListGroupItem>Host / Lead small group bible studies - facilitating group study aimed at developing deeper relationships with God and with each other.</ListGroupItem>
                             </ListGroup>
-                            <IsAdmin admin={this.state.isAdmin} />
+                            <IsAdmin admin={this.props.admin} />
                         </CardBody>
                     </Card>
                     </Col>

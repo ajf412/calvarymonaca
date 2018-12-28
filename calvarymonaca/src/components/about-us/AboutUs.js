@@ -6,15 +6,13 @@ import './AboutUs.css';
 
 import StaffPage from './staff/StaffPage';
 
-export default class AboutUs extends Component {
+class AboutUs extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       activeTab: '1',
     };
   }
-
 
   toggle = (tab) => {
     if (this.state.activeTab !== tab) {
@@ -97,7 +95,7 @@ export default class AboutUs extends Component {
             </Row>
           </TabPane>
           <TabPane tabId="3">
-            <StaffPage />
+            <StaffPage admin={this.props.admin} />
           </TabPane>
           <TabPane tabId="4">
             <Row>
@@ -153,3 +151,5 @@ export default class AboutUs extends Component {
     );
   }
 }
+
+export default AboutUs;

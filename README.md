@@ -12,9 +12,9 @@ The current site can be found at: https://www.calvarymonaca.com/
 - Google calendar
 - Spotify music list
 - Member registration
+- Admin sign in
 
 ## TODO
-- Admin sign in
 - Sermon upload by admin
 - Sermon list displaying sermons
 - Admin edit sermon listing

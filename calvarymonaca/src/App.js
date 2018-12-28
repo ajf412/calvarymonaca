@@ -18,6 +18,19 @@ import {
 } from './components';
 
 class App extends Component {
+  constructor(props){
+    super(props)
+    this.state={
+      admin: false,
+    }
+  }
+
+  adminSignIn = (signed) => {
+    this.setState({admin: signed}, () => {
+      console.log("Admin is signed in: " , this.state.admin);
+    });
+  }
+
   render() {
     return (
       <div className="APP">
@@ -27,21 +40,21 @@ class App extends Component {
         <div className="APP__BODY">
           <Router>
             <Switch>
-              <Route exact path = '/' component={Home} />
-              <Route path = '/about' component={AboutUs} />
-              <Route path = '/news' component={News} />
-              <Route path = '/outreach' component={Outreach} />
-              <Route path = '/sermons' component={Sermons} />
-              <Route path = '/resources' component={Resources} />
-              <Route path = '/music' component={WorshipMusic} />
-              <Route path = '/bible' component={Bible} />
-              <Route path = '/member' component={Member} />
+              <Route exact path = '/' admin={this.state.admin} component={Home} />
+              <Route path = '/about' render={(props) => <AboutUs {...props} admin={this.state.admin}/>} />
+              <Route path = '/news' render={(props) => <News {...props} admin={this.state.admin}/>} />
+              <Route path = '/outreach' render={(props) => <Outreach {...props} admin={this.state.admin}/>} />
+              <Route path = '/sermons' render={(props) => <Sermons {...props} admin={this.state.admin}/>} />
+              <Route path = '/resources' render={(props) => <Resources {...props} admin={this.state.admin}/>} />
+              <Route path = '/music' render={(props) => <WorshipMusic {...props} admin={this.state.admin}/>} />
+              <Route path = '/bible' render={(props) => <Bible {...props} admin={this.state.admin}/>} />
+              <Route path = '/member' render={(props) => <Member {...props} admin={this.state.admin}/>} />
             </Switch>
           </Router>
 
         </div>
         <footer className="APP__FOOTER">
-          <Footer/>
+          <Footer  admin={this.state.admin} adminSignIn={this.adminSignIn} />
         </footer>
       </div>
     );

@@ -61,4 +61,4 @@ typings/
 .next
 
 # netlify info
-*.netlify
+.netlify/

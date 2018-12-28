@@ -5,14 +5,15 @@ WORK IN PROGRESS
 I am rebuilding the Calvary Baptist Church of Monaca website.
 
 The current site can be found at: https://www.calvarymonaca.com/
-#DONE
+
+## DONE
 - Basic layout
 - Basic church information
 - Google calendar
 - Spotify music list
 - Member registration
 
-#TODO
+## TODO
 - Admin sign in
 - Sermon upload by admin
 - Sermon list displaying sermons

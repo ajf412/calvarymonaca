@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './Member.css';
-import { Button, Row, Col, Form, FormGroup, Input } from 'reactstrap';
+import { Button, Form, FormGroup, Input } from 'reactstrap';
 
 import MemberSignUp from './member-sign-up/MemberSignUp';
 
@@ -22,29 +22,29 @@ class Member extends Component {
     }
   }
 
+  handleSubmit = () => {
+    console.log("Submitting Login Info");
+  }
+
   render() {
     if(this.state.loggedIn === false) {
     return (
       <div className="MEMBER">
-            <Row>
-              <Col>
-                <h4>Member Login</h4>
-                <div>
-                  <Form inline>
-                    <FormGroup>
-                      <Input type="username" name="username" id="memberUsername" placeholder="username" />
-                    </FormGroup>
-                    <FormGroup>
-                      <Input type="password" name="password" id="examplePassword" placeholder="password" />
-                    </FormGroup>
-                    <div className="MEMBER__BUTTONS">
-                      <Button color="info">Submit</Button><br/>
-                      <MemberSignUp />
-                    </div>
-                  </Form>
-                </div>
-              </Col>
-            </Row>
+        <h4>Member Login</h4>
+        <div className="MEMBER__FORM">
+          <Form inline className="MEMBER__INPUTS">
+            <FormGroup>
+              <Input type="username" name="username" id="memberUsername" placeholder="username" />
+            </FormGroup>
+            <FormGroup>
+              <Input type="password" name="password" id="examplePassword" placeholder="password" />
+            </FormGroup>
+          </Form>
+        </div>
+        <div className="MEMBER__BUTTONS">
+          <Button color="info" onClick={this.handleSubmit}>Submit</Button><br/>
+          <MemberSignUp />
+        </div>
       </div>
     )
     }

@@ -54,7 +54,7 @@ class AboutUs extends Component {
               className={classnames({ active: this.state.activeTab === '4' })}
               onClick={() => { this.toggle('4'); }}
             >
-              Contact Us
+              What We Believe
             </NavLink>
           </NavItem>
           <NavItem>
@@ -62,7 +62,7 @@ class AboutUs extends Component {
               className={classnames({ active: this.state.activeTab === '5' })}
               onClick={() => { this.toggle('5'); }}
             >
-              What We Believe
+              Get Connected
             </NavLink>
           </NavItem>
           <NavItem>
@@ -70,7 +70,7 @@ class AboutUs extends Component {
               className={classnames({ active: this.state.activeTab === '6' })}
               onClick={() => { this.toggle('6'); }}
             >
-              Get Connected
+              Contact Us
             </NavLink>
           </NavItem>
         </Nav>
@@ -100,20 +100,6 @@ class AboutUs extends Component {
           <TabPane tabId="4">
             <Row>
               <Col sm="12">
-                <h5>Contact Us</h5>
-                <p>999 McClelland Street<br/>
-                Monaca, PA  15061<br/>
-                <br/>
-                office@calvarymonaca.com<br/>
-                <a href='https://www.facebook.com/CalvaryBaptistChurchMonacaPa'>Facebook</a><br/>
-                <br/>
-                Office  (724)775-6538</p>
-              </Col>
-            </Row>
-          </TabPane>
-          <TabPane tabId="5">
-            <Row>
-              <Col sm="12">
                 <h5>What We Believe</h5>
                 <p>The essence of a church is contained not in its building or its community presence, but in the body of its beliefs.</p>
                 <h6>At Calvary Baptist Church we believe:</h6>
@@ -132,7 +118,7 @@ class AboutUs extends Component {
               </Col>
             </Row>
           </TabPane>
-          <TabPane tabId="6">
+          <TabPane tabId="5">
             <Row>
               <Col sm="12">
                 <h5>Get Connected</h5> 
@@ -143,6 +129,20 @@ class AboutUs extends Component {
                 <h6>Praise Team</h6><p>Play a key role in leading our congregation in corporate worship.</p><br/>
                 <h6>AWANA</h6><p>AWANA is a children's ministry that seeks to establish our kids on a solid biblical foundation to provide the direction that is needed for daily life.</p><br/>
                 <h6>CBC Preschool</h6><p>Prepare children for kindergarten while teaching them about the love of Christ.</p><br/>
+              </Col>
+            </Row>
+          </TabPane>
+          <TabPane tabId="6">
+            <Row>
+              <Col sm="12">
+                <h5>Contact Us</h5>
+                <p>999 McClelland Street<br/>
+                Monaca, PA  15061<br/>
+                <br/>
+                office@calvarymonaca.com<br/>
+                <a href='https://www.facebook.com/CalvaryBaptistChurchMonacaPa'>Facebook</a><br/>
+                <br/>
+                Office  (724)775-6538</p>
               </Col>
             </Row>
           </TabPane>

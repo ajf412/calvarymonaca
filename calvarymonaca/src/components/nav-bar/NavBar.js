@@ -17,45 +17,46 @@ class NavBar extends Component {
   constructor(props) {
     super(props)
     this.state = {
+      collapsed: true
     }
   }
 
-  toggle = () => {
+  toggleNavbar = () => {
     this.setState({
-      isOpen: !this.state.isOpen
+      collapsed: !this.state.collapsed
     });
   }
 
   render() {
-    return (
-      <div className="NAVBAR">
-        <Navbar className="NAVBAR__BAR" expand="md">
+    return(
+      <div>
+        <Navbar color="faded" light expand="sm">
           <NavbarBrand className="NAVBAR__BRAND" href="/">Home</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto NAVBAR__NAV" navbar>
-              <NavItem>
-                <NavLink className="NAVBAR__LINK" href="/about/">About Us</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className="NAVBAR__LINK" href="/news/">News & Events</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className="NAVBAR__LINK" href="/outreach/">Outreach</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className="NAVBAR__LINK" href="/sermons/">Sermons</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className="NAVBAR__LINK" href="/resources/">Resources</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className="NAVBAR__LINK" href="/bible/">Bible</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className="NAVBAR__LINK" href="/member/">Members</NavLink>
-              </NavItem>
-            </Nav>
+          <NavbarToggler onClick={this.toggleNavbar} />
+          <Collapse className="navbar-toggleable-sm" isOpen={!this.state.collapsed} navbar>
+            <Nav className="sm-auto NAVBAR__NAV" navbar>
+               <NavItem>
+                 <NavLink className="NAVBAR__LINK" href="/about/">About Us</NavLink>
+               </NavItem>
+               <NavItem>
+                 <NavLink className="NAVBAR__LINK" href="/news/">News & Events</NavLink>
+               </NavItem>
+               <NavItem>
+                 <NavLink className="NAVBAR__LINK" href="/outreach/">Outreach</NavLink>
+               </NavItem>
+               <NavItem>
+                 <NavLink className="NAVBAR__LINK" href="/sermons/">Sermons</NavLink>
+               </NavItem>
+               <NavItem>
+                 <NavLink className="NAVBAR__LINK" href="/resources/">Resources</NavLink>
+               </NavItem>
+               <NavItem>
+                 <NavLink className="NAVBAR__LINK" href="/bible/">Bible</NavLink>
+               </NavItem>
+               <NavItem>
+                 <NavLink className="NAVBAR__LINK" href="/member/">Members</NavLink>
+               </NavItem>
+             </Nav>
           </Collapse>
         </Navbar>
       </div>

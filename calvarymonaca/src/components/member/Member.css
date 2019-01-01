@@ -1,8 +1,26 @@
 .MEMBER {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.MEMBER__FORM {
+    display: flex;
+    flex-direction: column;
+}
+
+.MEMBER__INPUTS {
+    display: flex;
+    justify-content: center;
 }
 
 .MEMBER__BUTTONS {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+button {
+
+    align-self: center;
 }
